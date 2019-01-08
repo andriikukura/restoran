@@ -1,0 +1,33 @@
+html, body, header, #intro {
+  height: 100%; }
+
+#intro {
+  background: url(../img/header-bg.jpg);
+  background-size: cover; }
+
+header {
+  color: #fff; }
+
+nav {
+  padding-top: 50px !important; }
+  nav .navbar-brand {
+    text-transform: uppercase;
+    -webkit-transition: ease-in-out .4s;
+    -o-transition: ease-in-out .4s;
+    transition: ease-in-out .4s; }
+    nav .navbar-brand:hover {
+      opacity: .7;
+      letter-spacing: 10px;
+      -webkit-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+      transform: rotate(360deg); }
+  nav .nav-link {
+    color: #fff !important;
+    -webkit-transition: ease .3s;
+    -o-transition: ease .3s;
+    transition: ease .3s; }
+    nav .nav-link:hover {
+      color: #b39318 !important;
+      -webkit-transform: rotate(10deg);
+      -ms-transform: rotate(10deg);
+      transform: rotate(10deg); }

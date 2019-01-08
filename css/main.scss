@@ -1,0 +1,36 @@
+html,body,header, #intro {
+    height: 100%;
+}
+
+#intro {
+    background: url(../img/header-bg.jpg);
+    background-size: cover;
+}
+
+header {
+    color: #fff;
+    
+}
+
+nav {
+    padding-top: 50px !important;
+
+    .navbar-brand {
+        text-transform: uppercase;
+        transition: ease-in-out .4s;
+        &:hover {
+            opacity: .7;
+            letter-spacing: 10px;
+            transform: rotate(360deg);
+        }
+    }
+    
+    .nav-link {
+        color:#fff !important;
+        transition: ease .3s;
+        &:hover {
+            color: #b39318 !important;
+            transform: rotate(10deg);
+        } 
+    }
+}
