@@ -10,9 +10,31 @@ $(document).ready(function(){
         }
     });//scroll
 
+    
+        // $('.menu-gallery').slick({
+        //   setting-name: setting-value
+        // });
+      
+
   
 
 });
+
+$(document).ready(function(){
+    $('.menu-gallery').slick({
+        dots: false,
+        infinite: true,
+        autoplay: true,
+        slidesToShow: 1,
+        centerMode: false,
+        variableWidth: true,
+        autoplaySpeed: 0,
+        speed: 9000,
+        cssEase: 'linear',
+        nextArrow: false,
+        prevArrow: false
+    });
+  });
 
 
 
@@ -27,13 +49,6 @@ function scrollFunction() {
     }
   }
   
-  // When the user clicks on the button, scroll to the top of the document
-// 
-//   function topFunction() {
-//     document.body.scrollTop = 0; // For Safari
-//     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-    
-//   }
 
   function topFunction(scrollDuration) {
     var scrollStep = -window.scrollY / (scrollDuration / 15),
