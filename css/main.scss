@@ -101,7 +101,7 @@ nav {
             left: 50%;
             width: 80px;
             margin-left: -45px;
-            height: 1px;
+            height: 2px;
             background-color: #fff;
         }
        
@@ -132,7 +132,7 @@ nav {
             left: 50%;
             width: 80px;
             margin-left: -45px;
-            height: 1px;
+            height: 2px;
             background-color: #962323;
         }
     }
@@ -175,5 +175,60 @@ nav {
     }
     .card-description {
         color: #8e8f91;
+    }
+}
+
+footer {
+
+    .footer-top {
+        background-color: #25262a;
+        color: #fff;
+
+        p {
+            font-size: 14px;
+        }
+
+        h4 {
+            margin-bottom: 45px;
+            font-size: 18px;
+        }
+
+        h5 {
+            font-size: 26px;
+            padding-bottom: 25px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 14px;
+            padding-bottom: 10px;
+            &:hover {
+                text-decoration: underline;
+            }
+
+            i {
+                color: #c0235a;
+                &:hover {
+                    color: #e2487e;
+                    
+                }
+            }
+        }
+    }
+
+    .footer-bottom {
+        background-color: #16171b;
+        color: #7b7c7e;
+
+        a {
+            text-decoration: none;
+            color: #7b7c7e;
+            transition: ease-in-out .2s;
+
+            &:hover {
+                color: #fff;
+            }
+        }
     }
 }

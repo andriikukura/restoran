@@ -77,7 +77,7 @@ nav {
       left: 50%;
       width: 80px;
       margin-left: -45px;
-      height: 1px;
+      height: 2px;
       background-color: #fff; }
   .story .about-text {
     font-size: 18px;
@@ -101,7 +101,7 @@ nav {
       left: 50%;
       width: 80px;
       margin-left: -45px;
-      height: 1px;
+      height: 2px;
       background-color: #962323; }
   .recipes .recipes-text {
     color: #fff; }
@@ -132,3 +132,38 @@ nav {
     color: #c8235d; }
   .menu .card-description {
     color: #8e8f91; }
+
+footer .footer-top {
+  background-color: #25262a;
+  color: #fff; }
+  footer .footer-top p {
+    font-size: 14px; }
+  footer .footer-top h4 {
+    margin-bottom: 45px;
+    font-size: 18px; }
+  footer .footer-top h5 {
+    font-size: 26px;
+    padding-bottom: 25px; }
+  footer .footer-top a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    padding-bottom: 10px; }
+    footer .footer-top a:hover {
+      text-decoration: underline; }
+    footer .footer-top a i {
+      color: #c0235a; }
+      footer .footer-top a i:hover {
+        color: #e2487e; }
+
+footer .footer-bottom {
+  background-color: #16171b;
+  color: #7b7c7e; }
+  footer .footer-bottom a {
+    text-decoration: none;
+    color: #7b7c7e;
+    -webkit-transition: ease-in-out .2s;
+    -o-transition: ease-in-out .2s;
+    transition: ease-in-out .2s; }
+    footer .footer-bottom a:hover {
+      color: #fff; }
